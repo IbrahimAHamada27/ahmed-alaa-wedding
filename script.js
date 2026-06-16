@@ -1,4 +1,4 @@
-// Set the date we're counting down to
+// Set the date we're counting down  to
 // July 18, 2026 18:00:00 (6:00 PM)
 const countDownDate = new Date("Jul 18, 2026 18:00:00").getTime();
 
