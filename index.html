@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation: Dr. Ahmed & Dr. Alaa</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Wedding Invitation: Dr. Ahmed Shaheen & Dr. Alaa El-Yamany">
+    <meta property="og:description"
+        content="We joyfully invite you to celebrate our wedding on July 18th at Jassie Palace. Click to open the invitation.">
+    <meta property="og:image" content="./og-image.png">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Dancing+Script:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Language Toggle -->
+    <button id="lang-toggle" class="lang-toggle">
+        <i class="fa-solid fa-globe"></i>
+        <span class="en">عربي</span>
+        <span class="ar">English</span>
+    </button>
+
+    <!-- Background Elements -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Floating Background Decor -->
+    <div class="floating-decor">
+        <div class="decor-item" style="left: 15%; animation-duration: 20s; animation-delay: 0s; font-size: 1.5rem;">🤍
+        </div>
+        <div class="decor-item" style="left: 35%; animation-duration: 25s; animation-delay: 5s; font-size: 1.2rem;">✨
+        </div>
+        <div class="decor-item" style="left: 60%; animation-duration: 18s; animation-delay: 2s; font-size: 1.8rem;">🤍
+        </div>
+        <div class="decor-item" style="left: 80%; animation-duration: 22s; animation-delay: 7s; font-size: 1.4rem;">✨
+        </div>
+        <div class="decor-item" style="left: 50%; animation-duration: 24s; animation-delay: 4s; font-size: 1.6rem;">🤍
+        </div>
+    </div>
+
+    <!-- Envelope Splash Screen -->
+    <div id="envelope-screen" class="envelope-screen">
+        <div class="floating-hearts">
+            <i class="fa-solid fa-heart floating-heart" style="left: 10%; animation-delay: 0s; font-size: 1.5rem;"></i>
+            <i class="fa-solid fa-heart floating-heart" style="left: 30%; animation-delay: 2s; font-size: 1rem;"></i>
+            <i class="fa-solid fa-heart floating-heart" style="left: 60%; animation-delay: 4s; font-size: 2rem;"></i>
+            <i class="fa-solid fa-heart floating-heart" style="left: 80%; animation-delay: 1s; font-size: 1.2rem;"></i>
+            <i class="fa-solid fa-heart floating-heart" style="left: 50%; animation-delay: 3s; font-size: 1.8rem;"></i>
+        </div>
+
+        <div class="envelope-wrapper">
+            <p class="welcome-text">
+                <span class="en">Welcome to the wedding of</span>
+                <span class="ar">دعوة لحضور حفل زفاف</span>
+            </p>
+            <h1 class="envelope-names">
+                <span class="en">Dr. Ahmed & Dr. Alaa</span>
+                <span class="ar">د. أحمد & آلاء</span>
+            </h1>
+
+            <div class="envelope-container" id="envelope">
+                <div class="envelope-left"></div>
+                <div class="envelope-right"></div>
+                <div class="envelope-bottom"></div>
+                <div class="envelope-flap"></div>
+                <div class="wax-seal">
+                    <i class="fa-solid fa-ring"></i>
+                </div>
+            </div>
+
+            <p class="click-text">
+                <span class="en">CLICK ENVELOPE TO OPEN...</span>
+                <span class="ar">اضغط لفتح الدعوة...</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Invitation Card -->
+    <div class="container" id="main-card" style="display: none;">
+        <div class="invitation-card">
+
+            <!-- Floral Top Decor -->
+            <div class="floral-decor top">
+                <i class="fa-solid fa-seedling"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-seedling fa-flip-horizontal"></i>
+            </div>
+
+            <!-- Bismillah & Quran Verse -->
+            <h3 class="bismillah" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</h3>
+            <p class="quran-verse" dir="rtl">﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا
+                لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</p>
+
+            <!-- Bride and Groom Art -->
+            <img src="./bride_groom_art.png" alt="Bride and Groom Illustration" class="couple-art">
+
+            <p class="intro-text">
+                <span class="en">We joyfully invite you to celebrate our wedding</span>
+                <span class="ar">نتشرف بدعوتكم لحضور حفل زفاف</span>
+            </p>
+
+            <!-- Names -->
+            <div class="names">
+                <h1 class="groom">
+                    <span class="en">Dr. Ahmed Shaheen</span>
+                    <span class="ar">د. أحمد شاهين</span>
+                </h1>
+                <span class="and">&</span>
+                <h1 class="bride">
+                    <span class="en">Dr. Alaa El-Yamany</span>
+                    <span class="ar">د. آلاء اليماني</span>
+                </h1>
+            </div>
+
+            <!-- Minimal Countdown -->
+            <div class="countdown-section">
+                <p class="countdown-title">
+                    <span class="en">HAPPILY EVER AFTER BEGINS IN</span>
+                    <span class="ar">تبدأ سعادتنا الأبدية في</span>
+                </p>
+                <div id="countdown" class="minimal-countdown">
+                    <div class="time-part"><span id="days">00</span><span class="label en">DAYS</span><span
+                            class="label ar">يوم</span></div>
+                    <span class="separator">:</span>
+                    <div class="time-part"><span id="hours">00</span><span class="label en">HOURS</span><span
+                            class="label ar">ساعة</span></div>
+                    <span class="separator">:</span>
+                    <div class="time-part"><span id="minutes">00</span><span class="label en">MINUTES</span><span
+                            class="label ar">دقيقة</span></div>
+                    <span class="separator">:</span>
+                    <div class="time-part"><span id="seconds">00</span><span class="label en">SECONDS</span><span
+                            class="label ar">ثانية</span></div>
+                </div>
+            </div>
+
+            <!-- Calendar Wrapper -->
+            <div class="calendar-wrapper">
+                <div class="calendar-frame">
+                    <i class="fa-brands fa-pagelines corner-decor top-left"></i>
+                    <i class="fa-brands fa-pagelines corner-decor top-right fa-flip-horizontal"></i>
+
+                    <h3 class="calendar-month">
+                        <span class="en">July, 2026</span>
+                        <span class="ar">يوليو، 2026</span>
+                    </h3>
+                    <div class="calendar-grid">
+                        <div class="weekday en">S</div>
+                        <div class="weekday en">M</div>
+                        <div class="weekday en">T</div>
+                        <div class="weekday en">W</div>
+                        <div class="weekday en">T</div>
+                        <div class="weekday en">F</div>
+                        <div class="weekday en">S</div>
+                        <div class="weekday ar">ح</div>
+                        <div class="weekday ar">ن</div>
+                        <div class="weekday ar">ث</div>
+                        <div class="weekday ar">ر</div>
+                        <div class="weekday ar">خ</div>
+                        <div class="weekday ar">ج</div>
+                        <div class="weekday ar">س</div>
+
+                        <div class="day empty"></div>
+                        <div class="day empty"></div>
+                        <div class="day empty"></div>
+
+                        <div class="day">1</div>
+                        <div class="day">2</div>
+                        <div class="day">3</div>
+                        <div class="day">4</div>
+                        <div class="day">5</div>
+                        <div class="day">6</div>
+                        <div class="day">7</div>
+                        <div class="day">8</div>
+                        <div class="day">9</div>
+                        <div class="day">10</div>
+                        <div class="day">11</div>
+                        <div class="day">12</div>
+                        <div class="day">13</div>
+                        <div class="day">14</div>
+                        <div class="day">15</div>
+                        <div class="day">16</div>
+                        <div class="day">17</div>
+                        <div class="day circled">18</div>
+                        <div class="day">19</div>
+                        <div class="day">20</div>
+                        <div class="day">21</div>
+                        <div class="day">22</div>
+                        <div class="day">23</div>
+                        <div class="day">24</div>
+                        <div class="day">25</div>
+                        <div class="day">26</div>
+                        <div class="day">27</div>
+                        <div class="day">28</div>
+                        <div class="day">29</div>
+                        <div class="day">30</div>
+                        <div class="day">31</div>
+                    </div>
+                    <div class="calendar-footer">
+                        <span class="en">July 18, 2026 - Our Wedding Day - 6:00 PM</span>
+                        <span class="ar">18 يوليو 2026 - يوم زفافنا - 6:00 مساءً</span>
+                    </div>
+
+                    <i class="fa-brands fa-pagelines corner-decor bottom-left fa-flip-vertical"></i>
+                    <i class="fa-brands fa-pagelines corner-decor bottom-right fa-flip-horizontal fa-flip-vertical"></i>
+                </div>
+            </div>
+
+            <!-- Location Section -->
+            <div class="location-section">
+                <i class="fa-solid fa-location-dot icon"></i>
+                <p class="venue">
+                    <span class="en">Jassie Palace Hall</span>
+                    <span class="ar">قاعة Jassie Palace</span>
+                </p>
+                <p class="address">
+                    <span class="en">Tanta - El Mahalla Road</span>
+                    <span class="ar">طريق طنطا - المحلة الكبري</span>
+                </p>
+                <div class="action-buttons">
+                    <a href="https://share.google/EUnq0BmQJiUyfJk1j" target="_blank" class="btn-primary">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <span class="en">View Location</span>
+                        <span class="ar">عرض الموقع</span>
+                    </a>
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+of+Dr.+Ahmed+%26+Dr.+Alaa&dates=20260718T150000Z/20260718T200000Z&details=We+are+honored+to+invite+you+to+our+wedding.+See+you+there!&location=Jassie+Palace+-+Tanta+-+El+Mahalla+Road"
+                        target="_blank" class="btn-secondary">
+                        <i class="fa-regular fa-calendar-plus"></i>
+                        <span class="en">Add to Calendar</span>
+                        <span class="ar">أضف للتقويم</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Floral Bottom Decor -->
+            <div class="floral-decor bottom" style="margin-top: 30px; margin-bottom: 0;">
+                <i class="fa-solid fa-seedling"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-seedling fa-flip-horizontal"></i>
+            </div>
+        </div>
+
+        <!-- Developer Signature -->
+        <div class="developer-signature">
+            <a href="https://ibrahimahamada27.github.io/My-Protofolio/" target="_blank">
+                &copy; 2026 Powered by Eng. Ibrahim A. Hamada
+            </a>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
